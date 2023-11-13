@@ -1,0 +1,103 @@
+@media screen and (max-width:770px){
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+       font-size: 20px;
+    }
+    #menu-bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solif #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        background: #24292D;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    .nav-links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+.nav-links li:last-child a{
+    border-radius: none;
+
+}
+.inner-home{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+.child-home{
+    flex-basis: 100%;
+}
+.child-home:last-child{
+    margin-bottom: 20px; 
+}
+.child-home h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+.child-home p{
+    font-size: 20px;
+}
+.innersoftware-child{
+    flex-basis: 100%;
+    margin-bottom: 30px
+}
+.child-courses{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.child-achivement{
+  flex-basis:100%;
+  margin-bottom: 30px;
+
+}
+.single-detail{
+    flex-basis:100%;
+
+}
+.child-achivement .sd-3{
+    margin-bottom: 20px;
+    
+}
+.child-testi{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+}
+.child-testi:last-child{
+    margin-bottom: 0;
+}
+.child-contact{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+
+}
+/* .child-footer{
+    margin-bottom: 10px;
+
+}
+
+.child-footer{
+    line-height: 22px;
+    margin-bottom: 10px;
+} */
+
+
+}
